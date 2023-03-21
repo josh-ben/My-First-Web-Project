@@ -1,0 +1,260 @@
+*{
+    margin: 0;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-size: large;
+    margin: 0;
+}
+
+/*================== CONTAINER-1 ================= */
+#container-1 {
+    background-color: black;
+    background-image: url('../images/landing.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 46.875rem;
+}
+
+
+.navigation ul{
+    text-decoration: none;
+    list-style-type: none;
+    text-align: end;
+
+}
+
+.navigation li{
+    display: inline-block;
+    padding: 1rem;
+    margin-top:40px;
+    margin-bottom: 0;
+    margin-right: 10px;
+    margin-right: 10px;
+    
+
+}
+
+.navigation a{
+    font-family: 'Montserrat' sans-serif;
+    font-size: large;
+    text-decoration: none;
+    color: #EBEBEB;
+}
+
+.navigation a:hover{
+    text-decoration: underline;
+   
+}
+
+#container-1 .writeup{
+    background: transparent;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #EBEBEB;
+    padding: 30px;
+    margin: 20px;
+    margin-top: 20%;
+    width: 30%;
+    line-height: 2rem;
+}
+
+.writeup p{
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.intro{
+    font-family: 'Montserrat' sans-serif;
+    text-decoration: none;
+    background-color: #8243ee;
+    color: #EBEBEB;
+    padding: 10px;
+    margin-top: 30px;  
+}
+.writeup a:hover{
+    background-color: #EBEBEB;
+    color: #8243ee;
+    border: 1px #8243ee solid;
+    font-weight: bold;
+}
+
+/*================== END OF CONTAINER-1 ================= */
+
+
+
+/*================== CONTAINER-2 ================= */
+#container-2 {
+    background-color: #f6fbfc;
+    padding: 50px 20px 20px 10px;
+    text-align: center;
+}
+
+.service-roll{
+    width: 60%;
+    margin: 10px auto 10px auto;
+}
+
+.service-roll h2 {
+    padding: 10px;
+    margin: 10px;
+}
+
+.service-roll .above{
+    margin-bottom: 80px;
+}
+.purple{
+    background-color: #8243ee;
+    border-radius: 100%;
+    padding: 5px;
+    margin: 15px;
+}
+
+.service-roll .check{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+
+.skill-roll-1, .skill-roll-2, .skill-roll-3 {
+    padding: 10px;
+    margin: 5px;
+}
+
+h4 {
+    padding: 15px;
+    font-family:Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bolder;
+}
+
+
+.check p {
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+
+
+
+/*================== END OF CONTAINER-2 ================= */
+
+
+
+/*================== CONTAINER-3 ================= */
+#container-3 {
+    background-color: #ECF2FF;
+    text-align: center;
+}
+
+.features{
+    width: 70%;
+    padding: 90px 20px 20px 90px;
+    margin: 0 auto 0px auto;
+    line-height: 1;
+}
+
+.features-1 a, .features-2 a{
+    font-family: 'Montserrat' sans-serif;
+    text-decoration: none;
+    background-color: #8243ee;
+    color: #EBEBEB;
+    padding: 10px;
+    margin-top: 50px;
+    margin-left: -295px;
+}
+
+.features-1 a:hover, .features-2 a:hover{
+    background-color: #EBEBEB;
+    color: #8243ee;
+    border: 1px #8243ee solid;
+    font-weight: bolder;
+
+}
+
+.features-1{
+    padding: 15px 15px 25px 15px;
+    margin: 20px 15px 50px 15px;
+}
+
+.features-2{
+    padding: 15px 15px 25px 15px;
+    margin: 20px 15px 50px 15px;
+}
+
+
+.features-1  h4, .features-2  h4{
+    font-size: larger;
+    padding-right: 20px;
+    text-align: start;
+
+
+} 
+
+.features-1  p{
+    text-align: start;
+    padding: 10px;
+    margin-bottom:10px;
+    
+}
+
+.features-2 p{
+    text-align: start;
+    padding: 10px;
+    margin-bottom:10px;
+    
+
+}
+
+.com-img{
+    width: 40%;
+    float: left;
+    padding: 10px;
+    margin-right: 60px;
+    height: 310px;
+}
+
+.cod-img {
+    width: 40%;
+    float: right;
+    padding: 10px;
+    margin-left: 60px;
+    height: 310px;
+
+}
+
+/*================== END OF CONTAINER-3 ================= */
+
+
+/*============== FOOTER ==================== */
+#footer{
+    background-color: #f6fbfc;
+    line-height: 2;
+}        
+    
+
+.terfoo{
+    width: 50%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.joshua{
+    width: 150px;
+    padding: 40px;
+    padding-top: 100px;
+}
+
+.name{
+    padding: 20px;
+
+}
+
+.las{
+   background-image: url('../images/laslas.jpg');
+   height: 100px;
+   width: 100%;
+}
+/*============== END FOOTER ==================== */
+
+
