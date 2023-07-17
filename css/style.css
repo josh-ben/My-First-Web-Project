@@ -257,4 +257,11 @@ h4 {
 }
 /*============== END FOOTER ==================== */
 
+/* Mobile devices (up to 600px) */
+@media(max-width: 600px) {
+  .writeup {
+    width: 80%;
+    margin-top: 10%;
+  }
+}
 
